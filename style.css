@@ -1,0 +1,76 @@
+body{
+   margin: 0 auto;
+   box-sizing: border-box;
+}
+header{
+   background-color: rgb(0, 52, 112);
+   display: flex;
+   justify-content: space-between;
+   padding: 0px 40px;
+}
+nav img{
+   margin-bottom: -10px;
+}
+nav a{
+   color: rgb(255, 255, 255, 0.5);
+   text-decoration: none;
+   margin-right: 20px;
+   line-height: 65px;
+}
+nav a:hover{
+   color: #fff;
+}
+.wrapper{
+   margin: 0 40px;
+}
+.wrapper > p{
+   font-size: 30px;
+   text-align: center;
+}
+.title{
+   background-color: rgb(152, 216, 253);
+   color: rgb(36, 22, 114);
+   font-size: 16px;
+   border-radius: 5px;
+   display: grid;
+   grid-template-columns: 1fr 4fr 4fr;
+   text-align: center;
+} 
+.wrap{
+   display: grid;
+   grid-template-columns: 1fr 4fr 4fr;
+   grid-gap: 20px 20px;
+   margin-top: 5px;
+}
+input{
+   width: 98%;
+   height: 30px;
+   margin-top: 10px;
+   border: 1px solid #ccc;
+   border-radius: 3px;
+   padding-left: 1%;
+}
+button{
+   width: 100%;
+   background-color: rgb(97, 97, 97);
+   border: none;
+   color: #fff;
+   padding: 8px 0px;
+   border-radius: 3px;
+   margin: 15px 0px;
+}
+.avatar img{
+   height: 134px;
+}
+.avatar input[type="file"]{
+   display: none;
+}
+.avatar .input_file{
+   width: 100%;
+   background-color: rgb(97, 97, 97);
+   color: #fff;
+   text-align: center;
+   padding: 7px 0px;
+   border-radius: 3px;
+   margin-top: 5px;
+}
